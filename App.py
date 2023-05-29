@@ -36,6 +36,6 @@ data = {u'2012-06-08': 388,
  u'2012-07-05': 392,
  u'2012-07-06': 392}
 
-df = pd.DataFrame(d.items(), columns=['Date', 'DateValue'])
+df = pd.DataFrame(data.items(), columns=['Date', 'DateValue'])
 
 AgGrid(df)
